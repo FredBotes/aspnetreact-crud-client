@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'aspnetreact-crud-client/**'
+      - '/**'
       - '.github/workflows/**'
   pull_request:
     types: [opened, synchronize, reopened, closed]
